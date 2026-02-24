@@ -41,7 +41,7 @@ TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 # 1. Start a chat with your bot (search its username and press Start)
 # 2. Open Telegram and search for @userinfobot
 # 3. Send /start — it will reply with your Chat ID (a plain number like 987654321)
-TTELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
+TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 
 INTERVAL_SECONDS = 15 * 60  # 15 minutes — change freely
 
